@@ -1,0 +1,85 @@
+/*
+  Number Methods
+  - Two Dots To Call A Methods
+  - toString()
+  - toFixed()
+  - parseInt()
+  - parseFloat()
+  - isInteger() [ES6]
+  - isNaN() [ES6]
+*/
+/*
+  Math Object
+  - round()
+  - ceil()
+  - floor()
+  - min()
+  - max()
+  - pow()
+  - random()
+  - trunc() [Es6]
+*/
+/* 
+  String Methods
+  - Access With Index
+  - Access With charAt()
+  - length
+  - trim()
+  - toUpperCase()
+  - toLowerCase()
+  - Chain Methods
+*/
+/*
+  String Methods
+  - indexOf(Value [Mand], Start [Opt] 0)
+  - lastIndexOf(Value [Mand], Start [Opt] Length)
+  - slice(Start [Mand], End [Opt] Not Include End)
+  - repeat(Times) [ES6]
+  - split(Separator [Opt], Limit [Opt])
+*/
+/*
+  String Methods
+  - substring(Start [Mand], End [Opt] Not Including End)
+  --- Start > End Will Swap
+  --- Start < 0 It Start From 0
+  --- Use Length To Get Last Character
+  - substr(Start [Mand], Characters To Extract)
+  --- Start >= Length = ""
+  --- Negative Start From End
+  - includes(Value [Mand], Start [Opt] Default 0) [ES6]
+  - startsWith(Value [Mand], Start [Opt] Default 0) [ES6]
+  - endsWith(Value [Mand], Length [Opt] Default Full Length) [ES6]
+*/
+/*
+  Arrays Methods [Adding And Removing]
+  - unshift("", "") Add Element To The First
+  - push("", "") Add Element To The End
+  - shift() Remove First Element From Array
+  - pop() Remove Last Element From Array
+*/
+/*
+  Arrays Methods [Search]
+  - indexOf(Search Element, From Index [Opt])
+  - lastIndexOf(Search Element, From Index [Opt])
+  - includes(valueToFind, fromIndex [Opt]) [ES7]
+*/
+  Arrays Methods [Sort]
+  - sort(Function [Opt])
+  - reverse
+*/
+/*
+  Arrays Methods [Slicing]
+  - slice(Start [Opt], End [Opt] Not Including End)
+  --- slice() => All Array
+  --- If Start Is Undefined => 0
+  --- Negative Count From End
+  --- If End Is Undefined || > Indexes => Slice To The End Array.length
+  --- Return New Array
+  - splice(Start [Mand], DeleteCount [Opt] [0 No Remove], The Items To Add [Opt])
+  --- If Negative => Start From The End
+*/
+/*
+  Arrays Methods [Joining]
+  - concat(array, array) => Return A New Array
+  - join(Separator)
+*/
